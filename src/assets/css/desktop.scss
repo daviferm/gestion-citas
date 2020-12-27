@@ -1,0 +1,22 @@
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    header {
+        flex-basis: 70px;
+        background-color: cornflowerblue;
+    }
+    .page-wraper {
+        flex-basis: auto;
+        display: grid;
+        grid-template-columns: 240px auto;
+        aside {
+            background-color: darkgoldenrod;
+        }
+        .contenido {
+            display: flex;
+            justify-content: center;
+            background-color: cornsilk;
+        }
+    }
+}

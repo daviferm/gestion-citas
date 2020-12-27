@@ -1,0 +1,13 @@
+<div class="main-wrapper">
+    <header>
+        <app-header></app-header>
+    </header>
+    <div #wrapper class="page-wrapper" (window:resize)="onResize($event)">
+        <aside #aside>
+            <app-sidebar></app-sidebar>
+        </aside>
+        <div #contenido class="contenido">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

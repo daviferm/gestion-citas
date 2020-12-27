@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    display: grid;
+    // grid-template-columns: 50px auto;
+    .header-side {
+        height: 70px;
+        background-color: darkgoldenrod;
+        display: flex;
+        align-items: center;
+        padding: .5rem;
+        #icono-text {
+            color: whitesmoke;
+            margin-left: .5rem;
+        }
+    }
+    .header-dash {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        .icon-menu {
+            padding: .5rem;
+            display: flex;
+            align-items: center;
+            i {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

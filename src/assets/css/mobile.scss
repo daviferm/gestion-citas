@@ -1,0 +1,25 @@
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    header {
+        flex-basis: 70px;
+        background-color: cornflowerblue;
+    }
+    .page-wraper {
+        flex-basis: auto;
+        display: flex;
+        aside {
+            position: absolute;
+            top: 70px;
+            left: 10px;
+            background-color: darkgoldenrod;
+        }
+        .contenido {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background-color: cornsilk;
+        }
+    }
+}

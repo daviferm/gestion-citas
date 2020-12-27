@@ -1,0 +1,14 @@
+<header #header (window:resize)="onResize($event)">
+    <div class="header-side">
+        <a class="navbar-brand" href="index.html">
+            <!-- <img id="icon-calendar" src="assets/images/calendar.png" alt="homepage" class="dark-logo" /> -->
+            <img id="icon-calendar" src="assets/images/calendar.png" alt="homepage" class="light-logo" />
+            <span *ngIf="title" id="icono-text">Calendario</span>
+        </a>
+    </div>
+    <div class="header-dash">
+        <div class="icon-menu" (click)="activarMenu()">
+            <i class="fas fa-bars pointer"></i>
+        </div>
+    </div>
+</header>
